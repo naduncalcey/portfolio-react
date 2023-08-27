@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "UI Engineering",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "UX Design",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "3D Modeling",
     icon: creator,
   },
 ];
@@ -116,11 +116,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "UI Engineer",
+    company_name: "Calcey",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "#FFF",
+    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +129,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Associate UI Engineer",
+    company_name: "Calcey",
+    icon: starbucks,
+    iconBg: "#FFF",
+    date: "May 2022 - Dec 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,10 +142,10 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Associate  UI/UX Engineer",
+    company_name: "Xinfint GmbH",
     icon: shopify,
-    iconBg: "#383E56",
+    iconBg: "#0081FB",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -155,11 +155,11 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Intern UI/UX Engineer",
+    company_name: "GTN Technologies",
     icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    iconBg: "#FFF",
+    date: "Sep 2019 - Sep 2020",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

@@ -48,7 +48,7 @@ const About = () => {
         HTML5, and JavaScript, Nadun is also an avid learner, currently
         exploring the Svelte JavaScript framework for upcoming projects.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center sm:justify-start">
         {services.map((service, index) =>(
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
