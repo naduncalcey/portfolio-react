@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import play from "./play.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -20,6 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import svelte from "./tech/svelte.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +39,7 @@ export {
   mobile,
   web,
   github,
+  play,
   menu,
   close,
   css,
@@ -52,6 +55,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  svelte,
   meta,
   shopify,
   starbucks,

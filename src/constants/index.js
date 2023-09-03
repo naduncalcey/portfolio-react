@@ -8,21 +8,17 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
   meta,
   starbucks,
-  tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  svelte,
 } from "../assets";
 
 export const navLinks = [
@@ -81,20 +77,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -109,9 +93,9 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
-  },
+    name: "svelte",
+    icon: svelte,
+  }
 ];
 
 const experiences = [
@@ -172,84 +156,86 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Nadun is a brilliant UI engineer whom I had the pleasure of working with at Calcey. Nadun consistently impressed me with his expertise in UI concepts, design, and coding.",
+    name: "Hasaru D",
+    designation: "UI Technical Lead",
+    company: "Calcey",
+    image: "https://media.licdn.com/dms/image/D5603AQG433qRWe9o5Q/profile-displayphoto-shrink_100_100/0/1688101847861?e=1699488000&v=beta&t=J0m7NlX8kD1tnxFOCYx8WFD_TQ8j8CDan6ZcNk0mvXk",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Nadun is a very talented person. He is one of the best interns that I had under my leadership. Nadun has a strong conceptualization, planning and execution qualities.",
+    name: "Amila M",
+    designation: "Head of Engineering",
+    company: "GTN",
+    image: "https://media.licdn.com/dms/image/C5603AQEiIh8Pldplhw/profile-displayphoto-shrink_100_100/0/1592057504767?e=1699488000&v=beta&t=zBqw81gW_26eMxOM1ddEIF2NwYjjH7QuCOQK16ztU4s",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "As an Intern UI/ UX Engineer at Global Market Technologies, Nadun closely worked with the business analysts, developers, and other stakeholders to solve the problems and achieving the targets.",
+    name: "Chamil R",
+    designation: "Tech Lead",
+    company: "GTN",
+    image: "https://media.licdn.com/dms/image/C4D03AQF0M9RJY5PIpw/profile-displayphoto-shrink_100_100/0/1656941787910?e=1699488000&v=beta&t=JanK5BA__OVKs9KywKmlGPzXIJqDW4vs4htEc_uHJLs",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Advice Generator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Frontend Mentor's advice generator app. This project demonstrates understanding of the Js and using 3rd party api's with Js.",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/naduncalcey/fm-advice-app",
+    website: "https://naduncalcey.github.io/fm-advice-app"
   },
   {
-    name: "Job IT",
+    name: "Pokemon TCG Search",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Pokemon TCG Search Version 01 is a web application that brings the world of Pokémon trading cards to your fingertips. With a user-friendly interface and a plethora of features, it's the ultimate destination for Pokémon enthusiasts to explore, discover, and interact with their favorite cards.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MUI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "react-style-components",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/naduncalcey/pokemon-tcg-app",
+    website: "https://pokemon-tcg-v1.netlify.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Velaris Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a dashboard I have built for an Interview assessment. I have design the user interface with figma and converted it to code.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ant-design",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +244,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/naduncalcey/velaris-dashboard",
+    website: "https://naduncalcey.github.io/velaris-dashboard"
   },
 ];
 
